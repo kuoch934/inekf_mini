@@ -1,0 +1,16 @@
+inekf_mini:
+  bias_estimate_enable: true # IMUバイアス推定の有効化
+
+  p_imu_to_base: [0.0, 0.0, 0.0]  # IMUからロボットのベースフレームへの平行移 (x, y, z)
+  R_imu_to_base: [1.0, 0.0, 0.0
+                  0.0, 1.0, 0.0
+                  0.0, 0.0, 1.0]  # IMUからロボットのベースフレームへの回転 (roll, pitch, yaw)
+
+  
+# IMUの初期状態の標準偏差
+  initial_std:
+    rot: 0.01
+    vel: 0.1
+    pos: 0.01
+    gyro_bias: 0.01
+    acc_bias: 0.1

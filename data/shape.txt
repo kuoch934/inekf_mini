@@ -1,0 +1,8 @@
+✅ Saved: gt_pos.csv (Shape: (20001, 3))
+✅ Saved: gt_vel.csv (Shape: (20001, 3))
+✅ Saved: gt_att.csv (Shape: (20001, 9))
+✅ Saved: imu_gyro.csv (Shape: (20001, 3))
+✅ Saved: imu_acc.csv (Shape: (20001, 3))
+✅ Saved: contact.csv (Shape: (20001, 2))
+✅ Saved: encoders.csv (Shape: (20001, 14))
+✅ Saved: time.csv (Shape: (20001, 1))
